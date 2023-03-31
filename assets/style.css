@@ -1,0 +1,350 @@
+.title-container {
+    overflow: hidden;
+    margin-bottom: 5px;
+    background-image: url("title4.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.header-icon-l {
+	width: 6%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	float: left;
+}
+
+/* small screen */
+.header-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+    width: 80%;
+    float: left;
+    background: linear-gradient(to right, #292929, #ffffff, #292929);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(4px 4px #333);
+}
+
+.feature-item {
+    height: 50px;
+    width: 30%;
+    font-size: 16px;
+    padding-left: 10px;
+    float: left;
+    border: 1px red solid;
+}
+
+.feature-item-check {
+    width: 20px;
+    border: 1px blue solid;
+}
+
+.preview-table{
+    overflow: hide;
+    width: 100%;
+}
+
+.result-display{
+    overflow: hide;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+/* median screen */
+@media only screen and (min-width: 768px) {
+.header-title {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+    width: 80%;
+    float: left;
+    background: linear-gradient(to right, #292929 25%, #ffffff 50%, #292929 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(4px 4px #333);
+}
+
+.feature-select {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+.feature-item {
+    height: 30px;
+    width: 33%;
+    font-size: 16px;
+    padding-left: 10px;
+    float: left;
+}
+}
+
+/* large screen */
+@media only screen and (min-width: 992px) {
+.header-title {
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+    width: 80%;
+    float: left;
+    background: linear-gradient(to right, #292929 25%, #ffffff 50%, #292929 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(4px 4px #333);
+}
+.feature-item {
+    height: 30px;
+    width: 25%;
+    font-size: 16px;
+    padding-left: 10px;
+    float: left;
+}
+}
+
+.help-img {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-icon-r {
+	width: 8%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	float: right;
+}
+
+.id-container {
+    padding-top: 5px;
+}
+
+.id-input {
+    height: 40px;
+    border-radius: 20px;
+}
+
+.id-input2 {
+    border-radius: 20px;
+}
+
+.id-input-warning {
+    font-size: 24px;
+    font-style: italic;
+    font-family: Times;
+}
+
+.id-center-text {
+    margin: auto;
+}
+
+.id-help {
+    margin-right: 5px;
+    margin-bottom: 10px;
+    float: right;
+}
+
+.id-button-container {
+    padding: 100px 20px 100px 20px;
+}
+
+.card-header {
+    color: silver;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.card-body {
+}
+
+.sub-title {
+    font-size: 18px;
+    font-weight: bold;
+    width: 20%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.feature-container {
+    overflow: hidden;
+    border: 1px dashed;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.preview {
+    overflow: hidden;
+    border: 1px dashed;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.preview-plot {
+}
+
+.option-label {
+    width: 100%;
+	color: silver;
+	font-weight: bold;
+	margin-left: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+    font-size: 16px;
+	float: left;
+}
+
+.option-label-2 {
+	width: 100%;
+	color: silver;
+	font-weight: bold;
+	/*border-top: 1px solid silver;
+	border-bottom: 1px solid silver;*/
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	background-color: rgba(38, 38, 38, 1);
+    margin-top: 15px;
+	margin-bottom: 5px;
+	float: left;
+}
+
+.option-label-3 {
+	width: 100%;
+	color: silver;
+	font-weight: bold;
+	border-top: 1px solid silver;
+	border-bottom: 1px solid silver;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	background-color: rgba(38, 38, 38, 1);
+    margin-top: 15px;
+	margin-bottom: 5px;
+	float: left;
+}
+
+.summary-item {
+	width: 100% !important;
+	color: white;
+	margin-left: auto;
+	margin-bottom: 2px;
+	text-align: center;
+    font-size: 16px;
+	float: left;
+}
+
+.summary {
+	width: 100%;
+	border-radius: 2px;
+	background-color: rgba(51, 51, 51, 1);
+    height: 200px;
+    margin-top: 10px;
+	float: left;
+}
+
+.plot-figure {
+	width: 100%;
+    height: 300px;
+	float:left;
+}
+
+.plot-board {
+	overflow: hidden !important;
+    width: 100%;
+	height: 350px;
+	border-radius: 2px;
+	/*border-style: outset;
+	border-width: 1px;
+	border-color: darkgray;*/
+	float: left;
+}
+
+.li-bullet-3 {
+	width: 39%;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: solid;
+	border-width: 1px;
+	border-color: SlateGray;
+	margin-right: 2px;
+	list-style-type: none;
+	float: left;
+}
+
+.li-bullet-4 {
+	width: 19%;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	border-bottom: dashed;
+	border-width: 1px;
+	border-color: SlateGray;
+	margin-right: 2px;
+	margin-top: 5px;
+	list-style-type: none;
+	float: left;
+}
+
+.li-bullet-5 {
+	width: 39%;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	border-bottom: dashed;
+	border-width: 1px;
+	border-color: SlateGray;
+	margin-right: 2px;
+	margin-top: 5px;
+	list-style-type: none;
+	float: left;
+}
+
+.li-bullet-6 {
+	width: 19%;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: solid;
+	border-width: 1px;
+	border-color: SlateGray;
+	margin-right: 2px;
+	list-style-type: none;
+	float: left;
+}
+
+.li-bullet-7 {
+	width: 49%;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: solid;
+	border-width: 1px;
+	border-color: SlateGray;
+	margin-right: 2px;
+	list-style-type: none;
+	float: left;
+}
+
+.gis_map {
+	width: 100%;
+	float: left;
+}
+
+.model-selection {
+    font-size: 14px;
+    font-weight: bold;
+    color: silver;
+    height: 30px;
+    float: right;
+}
